@@ -1,0 +1,16 @@
+div.devby {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: -5rem;
+  left: 0;
+  font-weight: bold;
+}
+
+img {
+  width: 12%;
+}

@@ -1,0 +1,68 @@
+div.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30rem;
+  /* height: 100vh; */
+  background-color: rgba(0, 183, 255, 0.445);
+backdrop-filter: blur(5px);
+  border: 1px solid black;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+
+div.main-container input[type="text"] {
+    width: 90%;
+  background-color: rgb(77, 75, 75);
+  color: white;
+  border-radius: 0.8rem;
+  border: 1px solid black;
+  padding: 0.8rem;
+  text-align: center;
+}
+
+div.main-container input[type="text"]::placeholder {
+  color: white;
+  text-align: center;
+}
+
+div.main-container button {
+  margin-top: 1.5rem;
+  width: 50%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 0.8rem;
+  border: 1px solid white;
+  padding: 0.8rem;
+  cursor: pointer;
+}
+
+div.main-container button:hover {
+    color: black;
+  background-color: rgb(0, 255, 76);
+  border: 1px solid black;
+
+  font-weight: bold;
+  transition: 0.7s;
+  scale: calc(1.1);
+}
+
+table {
+  margin-top: 2rem;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table thead tr{
+    border: none;
+}
+
+tr, td{
+        border: 1px solid black;
+}
+
+td{
+    padding: 0.8rem;
+}
